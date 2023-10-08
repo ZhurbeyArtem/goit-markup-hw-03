@@ -338,7 +338,6 @@ border-radius:4px;
 
 .cards-item {
   margin: 0 24px 48px 0;
-  border: 1px solid var(--cornflower)
 }
 
 .cards-item-content {
@@ -347,4 +346,5 @@ border-radius:4px;
   align-self: stretch;
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--cornflower)
 }
