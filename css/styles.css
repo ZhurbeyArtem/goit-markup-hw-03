@@ -167,6 +167,7 @@ margin-right: 40px;
   letter-spacing: 0.02em;
   color: var(--white);
   margin: 0 auto;
+  width: 496px;
 }
 
 .solution-btn {
