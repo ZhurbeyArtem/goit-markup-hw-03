@@ -1,0 +1,306 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02rem;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+* {
+  margin: 0;
+}
+
+:root {
+  --slate: #434455;
+  --cloud: #F4F4FD;
+  --navy-blue: #2E2F42;
+  --iris: #4D5AE5;
+  --white: #fff;
+  --cornflower: #E7E9FC;
+  --hover-links: #404bbf;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.04rem;
+  margin: 0 20px;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--hover-links);
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.title-large {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
+}
+
+/*----------------header---------------------*/
+.header {}
+
+.header-container {
+  background-color: var(--white);
+  text-align: center;
+}
+
+.logo-header {
+  color: var(--iris);
+  margin: 25.5px 56px 25.5px 0;
+}
+
+.logo-text {
+  color: var(--navy-blue);
+}
+
+.menu {}
+
+.menu-list{
+  color:var(--navy-blue);
+}
+
+.menu-list:hover,
+.menu-list:focus {
+  color: var(--hover-links);
+}
+
+.contacts {
+  margin-left: 312px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+}
+
+.contacts-link {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--hover-links);
+}
+
+
+/* ----------section 1----------- */
+
+.solution {
+  background-color: var(--navy-blue);
+}
+
+.solution-text {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+
+}
+
+.solution-btn {
+  background: var(--iris);
+  color: var(--white);
+  margin-top: 48px;
+  border: none;
+  letter-spacing: 0.04rem;
+
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.solution-btn:hover,
+.solution-btn:focus {
+  background-color: var(--hover-links);
+}
+
+/*-----------------------section 2 ---------------------*/
+.about-us-list {
+  margin: 120px 0px;
+}
+
+.about-us-item {
+  margin: 0 24px 0 0;
+}
+
+.about-us-title {
+  margin-bottom: 8px;
+}
+
+/*-------------------------- section 3 ----------------------*/
+
+.we-doing {
+  text-align: center;
+  margin-bottom: 120px;
+
+}
+
+.we-doing-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue)
+}
+
+.we-doing-item {
+  margin-right: 24px;
+}
+
+/*----------------------------- section 4 ---------------*/
+
+.team {
+  text-align: center;
+  background-color: var(--cloud);
+}
+
+.team-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.team-item {
+  margin-right: 24px;
+  background-color: var(--white);
+}
+
+.team-item-main {
+  margin: 32px 4px;
+}
+
+.team-item-main-title {
+  margin-bottom: 8px;
+}
+
+.team-item-main-text {
+  color: var(--slate);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+}
+
+/* -------------------- footer ---------------------------------*/
+
+.footer {
+  background: var(--navy-blue);
+}
+
+.footer-logo {
+  margin: 0 0 18px 0;
+  color: var(--iris)
+}
+
+.footer-logo-text {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+
+/*--------------------------------------------------------------------portfolio-------------------------------------------------------*/
+.filters {
+  margin: 96px 0 72px 0;
+}
+
+.filters-list {
+  justify-content: center;
+}
+
+.filters-item {
+  margin: 0 12px;
+}
+
+.filters-button {
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.filters-button:focus,
+.filters-button:hover {
+  background-color: var(--hover-links);
+  color: var(--white);
+}
+
+
+/*---------------------------------cards list -----------------------*/
+
+.cards {
+  margin-bottom: 72px;
+}
+
+.cards-list {
+  flex-wrap: wrap;
+}
+
+.cards-item {
+  margin: 0 24px 48px 0;
+  border: 1px solid var(--cornflower)
+}
+
+.cards-item-content {
+  align-self: stretch;
+}
