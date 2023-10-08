@@ -379,6 +379,6 @@ margin-right: 24px;
   border: 1px solid var(--cornflower);
   border-top: none;
 }
-cards-item-title{
+.cards-item-title{
   margin-bottom: 8px;
 }
